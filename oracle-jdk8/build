@@ -1,0 +1,1 @@
+docker build -t richardyft/oracle-jdk:8 .
