@@ -10,7 +10,7 @@ RUN apt-get update && \
     apt-get install -y oracle-java8-installer && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
-    rm -rf /var/cache/oracle-java8-installer
+    rm -rf /var/cache/oracle-java8-installer && \
     rm -rf /tmp/*
 
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
